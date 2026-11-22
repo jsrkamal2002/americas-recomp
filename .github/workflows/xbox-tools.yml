@@ -107,6 +107,7 @@ jobs:
           python tools/tests/test_xbox_rdna2_recomp.py
           python tools/tests/test_xbox_xgr_idl_table.py
           python tools/tests/test_xbox_progress_svg.py
+          python tools/tests/test_xbox_address_check.py
       - name: Check out the Xodus xgameruntime IDLs (LGPL; read at build time, not committed)
         uses: actions/checkout@v7
         with:

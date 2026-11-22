@@ -396,6 +396,8 @@ if(BUILD_TESTING)
         add_test(NAME isa_profiles COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tools/tests/test_isa_profiles.py)
         add_test(NAME xbox_progress_svg COMMAND ${Python3_EXECUTABLE}
             ${CMAKE_CURRENT_SOURCE_DIR}/tools/tests/test_xbox_progress_svg.py)
+        add_test(NAME xbox_address_check COMMAND ${Python3_EXECUTABLE}
+            ${CMAKE_CURRENT_SOURCE_DIR}/tools/tests/test_xbox_address_check.py)
         add_test(NAME progress_report_inputs COMMAND ${Python3_EXECUTABLE}
             ${CMAKE_CURRENT_SOURCE_DIR}/tools/tests/test_progress_report_inputs.py)
         add_test(NAME xbox_fssm_header COMMAND ${Python3_EXECUTABLE}
